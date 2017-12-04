@@ -1,0 +1,58 @@
+import java.util.Scanner;
+
+public class SpaceBoxing 
+{
+	Scanner keyboard = new Scanner(System.in);
+	
+	public static void main(String[] args) 
+	{
+		Scanner keyboard = new Scanner(System.in);
+		double weight;
+		String visiting;
+		
+	    double Venus = 0.78;
+		double Mars = 0.39;
+		double Jupiter = 2.65;
+		double Saturn = 1.17;
+		double Uranus = 51.05;
+		double Neptune = 1.23;
+		
+		System.out.println("Please enter your current earth weight:  ");
+		weight = keyboard.nextDouble();
+		
+		System.out.println("I have information for Venus, Mars, Jupiter, Saturn, Uranus, and Neptune");
+		
+		System.out.println("Which planet are you visiting? ");
+		visiting = keyboard.next();
+		
+		if visiting = Venus
+		{
+			System.out.println("Your weight on Venus would be " + (weight * Venus) + ".");
+		}
+		
+		else if visiting = Mars
+		{
+			System.out.println("Your weight on Mars would be " + (weight * Mars) + ".");
+		}
+		
+		else if visiting = Jupiter
+		{
+			System.out.println("Your weight on Jupiter would be " + (weight * Jupiter) + ".");
+		}
+		
+		else if visiting = Saturn
+		{
+			System.out.println("Your weight on Saturn would be " + (weight * Saturn) + ".");
+		}
+		
+		else if visiting = Uranus
+		{
+			System.out.println("Your weight on Uranus would be " + (weight * Uranus) + ".");
+		}
+		
+		else
+		{
+			System.out.println("Your weight on Neptune would be " + (weight * Neptune) + ".");
+		}
+	}
+}
