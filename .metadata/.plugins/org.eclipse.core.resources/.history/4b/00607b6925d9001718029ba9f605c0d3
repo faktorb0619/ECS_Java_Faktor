@@ -45,16 +45,9 @@ public class TwoQuestions
 			
 		}
 		
-			if(A1 == 3)
+			if(A2 == 1)
 			{
-				if(A2 == 1)
-				{
-					System.out.println( "Is it a CAMERO?! ");
-				}
-				else
-				{
-					System.out.println( "Is it a PAPER CLIP?! ");
-				}
+				System.out.println( "Is it a CAMERO?! ");
 			}
 			
 			else
