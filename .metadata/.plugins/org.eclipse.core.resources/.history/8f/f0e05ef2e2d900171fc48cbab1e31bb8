@@ -76,7 +76,7 @@ public class ALittleQuiz
 			System.out.println("Correct!");
 		}
 		
-		System.out.println("Great job! You got 2 / 3 right!");
+		System.out.println("Great job! You got 3 / 3 right!");
 		
 		System.out.println("Thanks for playing.");
 		

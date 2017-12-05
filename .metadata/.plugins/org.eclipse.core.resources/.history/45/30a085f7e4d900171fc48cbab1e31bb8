@@ -57,6 +57,10 @@ public class TwoQuestions
 				}
 			}
 			
+			else
+			{
+				System.out.println( "Is it a PAPER CLIP?! ");
+			}
 			
 		}
 			
