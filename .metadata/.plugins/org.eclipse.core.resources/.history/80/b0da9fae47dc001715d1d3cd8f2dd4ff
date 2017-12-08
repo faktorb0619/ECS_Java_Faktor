@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class MethodPass
+{
+	public static void main (String[] args)
+	{
+		int picked;
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("Pick a number: ");
+		picked = keyboard.nextInt();
+		
+		if(picked % 3 == 0)
+		{
+			System.out.println("I like that number! ");
+		}
+		
+		else
+		{
+			System.out.println("That number is gross... ");
+		}
+		
+	}
+}
