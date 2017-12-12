@@ -8,8 +8,8 @@ public class AreaCalculator
 		int ans;
 		
 		System.out.println( "Choose a shape: " );
-		System.out.println( "1. Triangle   2. Circle" );
-		System.out.println( "3. Rectangle   4. Square" );
+		System.out.println( "1. Tri   2. Cir" );
+		System.out.println( "3. Rec   4. Sqr" );
 		System.out.println( "5. Quit" );
 		ans = k.nextInt();
 		
