@@ -107,35 +107,35 @@ public static void sqr()
 	
 	
 	
-	
+	int ans2;
 	
 	System.out.println( "Choose a shape: " );
 	System.out.println( "1. Tri   2. Cir" );
 	System.out.println( "3. Rec   4. Sqr" );
 	System.out.println( "5. Quit" );
-	ans = k.nextInt();
+	ans2 = k.nextInt();
 	
-	if ( ans == 1 )
+	if ( ans2 == 1 )
 	{
 		tri();
 	}
 	
-	if ( ans == 2 )
+	if ( ans2 == 2 )
 	{
 		cir();
 	}
 
-	if ( ans == 3 )
+	if ( ans2 == 3 )
 	{
 		rec();
 	}
 	
-	if ( ans == 4 )
+	if ( ans2 == 4 )
 	{
 		sqr();
 	}
 	
-	if ( ans == 5 )
+	if ( ans2 == 5 )
 	{
 		System.out.println( "You quit!" );
 	}
@@ -205,35 +205,35 @@ public static void sqr2()
 	
 	
 	
-
+	int ans3;
 	
 	System.out.println( "Choose a shape: " );
 	System.out.println( "1. Tri   2. Cir" );
 	System.out.println( "3. Rec   4. Sqr" );
 	System.out.println( "5. Quit" );
-	ans = k.nextInt();
+	ans3 = k.nextInt();
 	
-	if ( ans == 1 )
+	if ( ans3 == 1 )
 	{
 		tri();
 	}
 	
-	if ( ans == 2 )
+	if ( ans3 == 2 )
 	{
 		cir();
 	}
 
-	if ( ans == 3 )
+	if ( ans3 == 3 )
 	{
 		rec();
 	}
 	
-	if ( ans == 4 )
+	if ( ans3 == 4 )
 	{
 		sqr();
 	}
 	
-	if ( ans == 5 )
+	if ( ans3 == 5 )
 	{
 		System.out.println( "You quit!" );
 	}
