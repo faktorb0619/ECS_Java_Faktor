@@ -8,14 +8,14 @@ public class AreaCalculatorRepeat
 	Scanner k = new Scanner(System.in);
 	int ans;
 	
+	System.out.println( "Choose a shape: " );
+	System.out.println( "1. Tri   2. Cir" );
+	System.out.println( "3. Rec   4. Sqr" );
+	System.out.println( "5. Quit" );
+	ans = k.nextInt();
+	
 	do 
 	{
-		System.out.println( "Choose a shape: " );
-		System.out.println( "1. Tri   2. Cir" );
-		System.out.println( "3. Rec   4. Sqr" );
-		System.out.println( "5. Quit" );
-		ans = k.nextInt();
-		
 		if ( ans == 1 )
 		{
 			tri();
@@ -42,8 +42,7 @@ public class AreaCalculatorRepeat
 		}
 		
 		
-	}   while ( ans != 5 );
-	}
+	} while ( ans != 5 );
 	
 	
 public static void tri()
