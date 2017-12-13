@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class FindingPrimes2 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		long lower, upper;
+		
+		lower = keyboard.nextDouble();
+		upper = keyboard.nextDouble();
+		
+		for (long i = lower; i <= upper; i++) {
+			checkPrimality(i);
+		}
+	}
+	
+	public static void checkPrimality(double a)
+	{
+		for (long i = 2; i<=Math.sqrt(a); i++) 
+		{
+			if(a % i == 0)
+			{
+				System.out.println(a);
+			}
+			
+			else
+			{
+				System.out.println(a + " <");
+			}
+		}
+	}
+}

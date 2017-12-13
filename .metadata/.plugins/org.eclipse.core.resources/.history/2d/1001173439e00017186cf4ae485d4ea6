@@ -1,0 +1,17 @@
+public static boolean main(String[] args)
+{
+	public class FindingPrimes3
+		int n ;
+		int i;
+		{
+		for (i = 2; i <= n; i++) 
+		{
+			if (n % i == 0) 
+			{
+            return false;
+			}
+		}
+		return true;
+		}
+	}
+}

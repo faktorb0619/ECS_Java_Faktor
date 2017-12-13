@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class FindingPrimes2 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		double n = 10;
+		double c = Math.sqrt(n);
+		double counter = 2;
+		
+		while(n<=99)
+		{
+			n++;
+			while(n % counter != 0 && counter <= c)
+			{
+				counter++;
+			}
+				
+			if(n % counter == 0)
+			{
+				System.out.println(n);
+			}
+				
+			else if(counter > c)
+			{
+				System.out.println(n + " <");
+			}
+		}
+		
+	}
+}
