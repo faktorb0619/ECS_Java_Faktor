@@ -14,8 +14,6 @@ public class FindingPrimes2
 		System.out.println("Check primes up to: ");
 		upper = keyboard.nextLong();
 		
-		System.out.println("All numbers from " + lower + " to " + upper + " will be listed, and the primes will be indicated: ");
-		
 		for (long i = lower; i <= upper; i++) 
 		{
 			if(checkPrimality(i))
