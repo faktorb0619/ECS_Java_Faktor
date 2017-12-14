@@ -8,7 +8,7 @@ public class Calculator
 	Scanner k = new Scanner(System.in);
 	int ans;
 	
-	System.out.println( "Choose an operation: " );
+	System.out.println( "Choose a shape: " );
 	System.out.println( "1. Addition   2. Subtraction" );
 	System.out.println( "3. Multiplication   4. Division" );
 	System.out.println( "5. Power" );
