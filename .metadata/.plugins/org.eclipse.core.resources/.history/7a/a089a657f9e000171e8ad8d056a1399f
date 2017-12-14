@@ -46,10 +46,10 @@ public static void add()
 	
 	double a, b;
 		
-	System.out.println( "Please input a for a + b: " );
+	System.out.println( "Please input first number: " );
 	a = k.nextDouble();
 	
-	System.out.println( "Please input b for a + b: " );
+	System.out.println( "Please input second number " );
 	b = k.nextDouble();
 	
 	System.out.println( "The sum of the numbers is " + (a + b) );
@@ -61,10 +61,10 @@ public static void sub()
 	
 	double a, b;
 		
-	System.out.println( "Please input a for a - b: " );
+	System.out.println( "Please input first number: " );
 	a = k.nextDouble();
 	
-	System.out.println( "Please input b for a - b: " );
+	System.out.println( "Please input second number " );
 	b = k.nextDouble();
 	
 	System.out.println( "The difference is " + (a - b) );
@@ -77,10 +77,10 @@ public static void mult()
 	
 	double a, b;
 		
-	System.out.println( "Please input a for a * b: " );
+	System.out.println( "Please input first number: " );
 	a = k.nextDouble();
 	
-	System.out.println( "Please input b for a * b: " );
+	System.out.println( "Please input second number " );
 	b = k.nextDouble();
 	
 	System.out.println( "The product is " + (a * b) );
@@ -92,10 +92,10 @@ public static void div()
 	
 	double a, b;
 		
-	System.out.println( "Please input a for a / b: " );
+	System.out.println( "Please input first number: " );
 	a = k.nextDouble();
 	
-	System.out.println( "Please input b for a / b: " );
+	System.out.println( "Please input second number " );
 	b = k.nextDouble();
 	
 	System.out.println( "The quotient is " + (a / b) );
@@ -108,10 +108,10 @@ public static void pow()
 	
 	double a, b;
 		
-	System.out.println( "Please input a for a ^ b: " );
+	System.out.println( "Please input first number: " );
 	a = k.nextDouble();
 	
-	System.out.println( "Please input b for a ^ b " );
+	System.out.println( "Please input second number " );
 	b = k.nextDouble();
 	
 	System.out.println( "The answer is " + Math.pow(a,b) );
