@@ -41,8 +41,8 @@ public class FillInMethods
 		// displays some boilerplate text saying who wrote this program, etc.
 
 		System.out.println();
-		System.out.println("programmed by Mr. Mauro");
-		System.out.println("modified by [Ben]");
+		System.out.println("programmed by Sam Cummings");
+		System.out.println("modified by [your name here]");
 		System.out.print("This code is distributed under the terms of the standard ");
 		System.out.println("BSD license.  Do with it as you wish.");
 

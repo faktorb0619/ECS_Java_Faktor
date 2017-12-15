@@ -2,28 +2,27 @@
 
 import java.util.Scanner;
 
+import java.util.Random;
+
 public class MoreFillInMethods
 {
-	
 	public static void main( String[] args )
 	{
-		
 		// Fill in the method calls where indicated.
 		System.out.println("Here we go.");
 
+		Random r = new Random();
+		int choice = 1 + r.nextInt(10);
+		int choice2 = 1 + r.nextInt(10);
 		System.out.println();
 		System.out.println("Some random numbers, if you please: ");
-		int lo, hi, val1, val2;
+		int lo, hi, val1 = choice, val2 = choice2;
 		lo = 1;
 		hi = 10;
-		
-		val1 = superrand(lo, hi);
-		val2 = superrand(hi,lo);
+		// superrand();
 		System.out.println("First: " + val1 );
-		
-		superrand(hi, lo);  // this time, put hi first
+		// superrand();  // this time, put hi first
 		System.out.println("Second: " + val2 );
-		
 		if ( val1 == val2 )
 			System.out.println("Hey!  They were the same!");
 		else
@@ -31,41 +30,43 @@ public class MoreFillInMethods
 
 		System.out.println();
 		System.out.print("More counting, but this time not by ones: ");
+		int begin = 2;
+		while(begin<=10)
+		{
+			System.out.println(begin);
+			begin += 2;
+		}
 		// count from 2 to 8 by 2s
-		stepcount(2, 8, 2);
+		// stepcount();
 		// count from 10 to 2 by 2s
-		stepcount(10, 2, 2);
+		// stepcount();
 
 		System.out.println();
 		System.out.println("Let's figure a project grade.");
-		
-		int a=4,b=3,c=4,d=5,e=2,f=1, result=999;
-		
-		project_grade(a, b, c, d, e, f);
+		int a=4,b=3,c=4,d=5,e=2,f=1, result=71;
+		// project_grade();
 		System.out.println("434521 -> " + result );
 
 		System.out.println();
 		System.out.print("Finally, some easy ones.");
 
-		String nombre = "ERROR";
-		
-		nombre = get_name();
+		String nombre = "Ben";
+		// get_name();
 		System.out.println("Hi, " + nombre );
 
 		System.out.println();
 		System.out.println("Do you feel lucky, punk?");
-		
-		crash();
-		System.out.println();
-		
+		// crash();
+		System.out.println("you lose");
 	}
 
-	public static int superrand( int a, int b )
+
+/*
+	public static ???? superrand( ???? )
 	// Parameters are:
 	//	int a;
 	//	int b;
 	{
-		
 		// picks a number between a and b, no matter which is larger
 		int c;
 
@@ -76,17 +77,18 @@ public class MoreFillInMethods
 		else
 			c = a;	// or c = b; doesn't matter since they're equal
 
-		return c;
-		
+		return ??;
 	}
+*/
 
- 	public static int stepcount( int first, int last, int step )
+
+/*
+ 	public static ???? stepcount( ???? )
 	// Parameters are:
 	//     int first;
 	//     int last;
 	//     int step;
 	{
- 		
 		// counts from 'first' to 'last' by 'step'
 		// handles forward and backward
 		int x;
@@ -110,15 +112,16 @@ public class MoreFillInMethods
 			}
 		}
 
-		return x;
-		
+		return ??;
 	}
+*/
 
-	public static int project_grade( int p1, int p2, int p3, int p4, int p5, int p6 )
+
+/*
+	public static ???? project_grade( ???? )
 	// Parameters are:
 	//     int p1, p2, p3, p4, p5, p6;
 	{
-		
 		// given six integers representing scores out of five in each of the
 		// six categories for the first six weeks project: tells you your
 		// overall project grade out of 100
@@ -132,14 +135,15 @@ public class MoreFillInMethods
 		overall_grade = overall_grade + ( p5 * 1 );   // one point per point
 		overall_grade = overall_grade + ( p6 * 1 );   // one point per point
 
-		return overall_grade;
-		
+		return ??;
 	}
+*/
 
-	public static String get_name()
+
+/*
+	public static ???? get_name( ???? )
 	// No parameters.
 	{
-		
 		// finds out the user's name
 		Scanner keyboard = new Scanner(System.in);
 
@@ -147,16 +151,15 @@ public class MoreFillInMethods
 		System.out.print("Please enter your name: ");
 		name = keyboard.next();
 
-		keyboard.close();
-		
-		return name;
-		
+		return ??;
 	}
+*/
 
-	public static String crash()
+
+/*
+	public static ???? crash( ???? )
 	// No parameters.
 	{
-		
 		// displays "you win" or "you lose".  You lose 90% of the time.
 		String magic_word;
 
@@ -173,8 +176,8 @@ public class MoreFillInMethods
 
 		System.out.print("you " + magic_word);
 
-		return magic_word;
-		
+		return ??;
 	}
+*/
 
 }

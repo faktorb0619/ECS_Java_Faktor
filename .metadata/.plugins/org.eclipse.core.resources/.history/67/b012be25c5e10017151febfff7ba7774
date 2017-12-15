@@ -13,12 +13,11 @@ public class MoreFillInMethods
 
 		System.out.println();
 		System.out.println("Some random numbers, if you please: ");
-		int lo, hi, val1, val2;
+		int lo, hi, val1 = 999, val2 = 999;
 		lo = 1;
 		hi = 10;
 		
-		val1 = superrand(lo, hi);
-		val2 = superrand(hi,lo);
+		superrand(lo, hi);
 		System.out.println("First: " + val1 );
 		
 		superrand(hi, lo);  // this time, put hi first
