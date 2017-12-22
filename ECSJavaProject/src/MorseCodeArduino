@@ -1,0 +1,329 @@
+void setup() 
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() 
+{
+
+  String message = "ben";
+  
+  for (int i = 0; i < message.length(); i++) 
+  {
+    char letter = message.charAt(i);
+    switch (letter)
+    {
+      case 'a':
+        doA();
+        stop();
+        break;
+      case 'b':
+        doB();
+        stop();
+        break;
+      case 'c':
+        doC();
+        stop();
+        break;
+      case 'd':
+        doD();
+        stop();
+        break;
+      case 'e':
+        doE();
+        stop();
+        break;
+      case 'f':
+        doF();
+        stop();
+        break;
+      case 'g':
+        doG();
+        stop();
+        break;
+      case 'h':
+        doH();
+        stop();
+        break;
+      case 'i':
+        doI();
+        stop();
+        break;
+      case 'j': 
+        doJ();
+        stop();
+        break;
+      case 'k':
+        doK();
+        stop();
+        break;
+      case 'l':
+        doL();
+        stop();
+        break;
+      case 'm':
+        doM();
+        stop();
+        break;
+      case 'n':
+        doN();
+        stop();
+        break;
+      case 'o':
+        doO();
+        stop();
+        break;
+      case 'p':
+        doP();
+        stop();
+        break;
+      case 'q':
+        doQ();
+        stop();
+        break;
+      case 'r':
+        doR();
+        stop();
+        break;
+      case 's':
+        doS();
+        stop();
+        break;
+      case 't':
+        doT();
+        stop();
+        break;
+      case 'u':
+        doU();
+        stop();
+        break;
+      case 'v':
+        doV();
+        stop();
+        break;
+      case 'w':
+        doW();
+        stop();
+        break;
+      case 'x':
+        doX();
+        stop();
+        break;
+      case 'y':
+        doY();
+        stop();
+        break;
+      case 'z':
+        doZ();
+        stop();
+        break;
+    }
+  }
+}
+
+void dot()
+{
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(125);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(125);
+}
+
+void dash()
+{
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(125);
+}
+
+void stop()
+{
+  delay(2000);
+}
+
+void doA()
+{
+  dot();
+  dash();
+}
+
+void doB()
+{
+  dash();
+  dot();
+  dot();
+  dot();
+}
+
+void doC()
+{
+  dash();
+  dot();
+  dash();
+  dot();
+}
+
+void doD()
+{
+  dash();
+  dot();
+  dot();
+}
+
+void doE()
+{
+  dot();
+}
+
+void doF()
+{
+  dot();
+  dot();
+  dash();
+  dot();
+}
+
+void doG()
+{
+  dash();
+  dash();
+  dot();
+}
+
+void doH()
+{
+  dot();
+  dot();
+  dot();
+  dot();
+}
+void doI()
+{
+  dot();
+  dot();
+}
+
+void doJ()
+{
+  dot();
+  dash();
+  dash();
+  dash();
+}
+
+void doK()
+{
+  dash();
+  dot();
+  dash();
+}
+
+void doL()
+{
+  dot();
+  dash();
+  dot();
+  dot();
+}
+
+void doM()
+{
+  dash();
+  dash();
+}
+
+void doN()
+{
+  dash();
+  dot();
+}
+
+void doO()
+{
+  dash();
+  dash();
+  dash();
+}
+
+void doP()
+{
+  dot();
+  dash();
+  dash();
+  dot();
+}
+
+void doQ()
+{
+  dash();
+  dash();
+  dot();
+  dash();
+}
+
+void doR()
+{
+  dot();
+  dash();
+  dot();
+}
+
+void doS()
+{
+  dot();
+  dot();
+  dot();
+}
+
+void doT()
+{
+  dash();
+}
+
+void doU()
+{
+  dot();
+  dot();
+  dash();
+}
+
+void doV()
+{
+  dot();
+  dot();
+  dot();
+  dash();
+}
+
+void doW()
+{
+  dot();
+  dash();
+  dash();
+}
+
+void doX()
+{
+  dash();
+  dot();
+  dot();
+  dash();
+}
+
+void doY()
+{
+  dash();
+  dot();
+  dash();
+  dash();
+}
+
+void doZ()
+{
+  dash();
+  dash();
+  dot();
+  dot();
+}
